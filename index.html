@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>touch-slider</title>
+	<style>
+		* { margin: 0; padding: 0; }
+		a { text-decoration: none; color: #444; }
+		a:hover { text-decoration: underline; color: #ccc;  }
+		li { list-style: none; }
+	</style>
+	<link rel="stylesheet" href="style/slider.css"/>
+	<script src="script/class.js"></script>
+	<script src="script/slider.js"></script>
+</head>
+<body>
+
+<div id="main">
+
+	<div id="tab" class="ui-slider-title">
+		<ul>
+			<li class="current"><a href="#" onclick="return false;">实时热点</a></li>
+			<li><a href="#" onclick="return false;">七日关注</a></li>
+			<li><a href="#" onclick="return false;">世说新词</a></li>
+			<li><a href="#" onclick="return false;">热点人物</a></li>
+		</ul>
+	</div>
+
+	<div class="ui-slider-container" id="container">
+
+		<div>
+			<div>
+				<ul>
+					<li><b>1</b><a href="#0,0">90后女孩因分手被拘</a></li>
+					<li><b>2</b><a href="#0,1">大s产女</a></li>
+					<li><b>3</b><a href="#0,2">新毒品阿拉伯茶</a></li>
+					<li><b>4</b><a href="#0,3">国民岳母韩寒</a></li>
+					<li><b>5</b><a href="#0,4">女记者被警察查房验尿</a></li>
+					<li><b>6</b><a href="#0,5">新浪涉黄</a></li>
+					<li><b>7</b><a href="#0,6">女子占座不让飞踹老人</a></li>
+					<li><b>8</b><a href="#0,7">闫妮水下大片曝光</a></li>
+					<li><b>9</b><a href="#0,8">杀人嫌犯拒捕</a></li>
+					<li><b>10</b><a href="#0,9">陕西中学售安全套</a></li>
+				</ul>
+			</div>
+
+			<div>
+				<ul>
+					<li><b>1</b><a href="#1,0">天天向上</a></li>
+					<li><b>2</b><a href="#1,1">一男娶两女婚礼真相</a></li>
+					<li><b>3</b><a href="#1,2">佟大为周迅婚纱照曝光</a></li>
+					<li><b>4</b><a href="#1,3">汤唯落泪</a></li>
+					<li><b>5</b><a href="#1,4">公鸡被宰前开口说话</a></li>
+					<li><b>6</b><a href="#1,5">女护士与领导喝酒成植物人</a></li>
+					<li><b>7</b><a href="#1,6">世界最大兔子</a></li>
+					<li><b>8</b><a href="#1,7">名模与猪游泳</a></li>
+					<li><b>9</b><a href="#1,8">美女董事长艾如</a></li>
+					<li><b>10</b><a href="#1,9">何洁挺大肚外出就餐</a></li>
+				</ul>
+			</div>
+
+			<div>
+				<ul>
+					<li><b>1</b><a href="#2,0">熟女</a></li>
+					<li><b>2</b><a href="#2,1">比特币</a></li>
+					<li><b>3</b><a href="#2,2">屌丝</a></li>
+					<li><b>4</b><a href="#2,3">时间都去哪了</a></li>
+					<li><b>5</b><a href="#2,4">pm2.5</a></li>
+					<li><b>6</b><a href="#2,5">且行且珍惜</a></li>
+					<li><b>7</b><a href="#2,6">杀马特</a></li>
+					<li><b>8</b><a href="#2,7">车震</a></li>
+					<li><b>9</b><a href="#2,8">人鱼线</a></li>
+					<li><b>10</b><a href="#2,9">么么哒</a></li>
+				</ul>
+			</div>
+
+			<div>
+				<ul>
+					<li><b>1</b><a href="#3,0">宋林</a></li>
+					<li><b>2</b><a href="#3,1">梁家辉女儿</a></li>
+					<li><b>3</b><a href="#3,2">小彩旗</a></li>
+					<li><b>4</b><a href="#3,3">于正</a></li>
+					<li><b>5</b><a href="#3,4">王诗龄</a></li>
+					<li><b>6</b><a href="#3,5">kimi</a></li>
+					<li><b>7</b><a href="#3,6">刘汉</a></li>
+					<li><b>8</b><a href="#3,7">武僧一龙</a></li>
+					<li><b>9</b><a href="#3,8">张悦轩</a></li>
+					<li><b>10</b><a href="#3,9">琼瑶</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	//new I.Slider({tab:'.ui-slider-title',container:'.ui-slider-container'});
+	new I.Slider({tab:'#tab',container:'#container'})
+</script>
+</body>
+</html>

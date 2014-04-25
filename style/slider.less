@@ -1,0 +1,33 @@
+.ui-slider{
+	&-title{
+		height: 50px;
+		&>:only-child{
+			height: 30px;
+			line-height: 30px;
+			display: -webkit-box;
+			&>*{
+				/*display: inline-block;*/
+				-webkit-box-flex: 1;
+				text-align: center;
+			}
+		}
+		.current {
+			/*background: red;*/
+		}
+	}
+	&-container{
+		overflow: hidden;
+		width: 100%;
+		position: relative;
+		&>:only-child{
+			/*display: -webkit-box;*/
+			width: 100%;
+			>*{
+				/*-webkit-box-flex: 1;*/
+				overflow: hidden;
+				position: absolute;
+			}
+		}
+
+	}
+}
